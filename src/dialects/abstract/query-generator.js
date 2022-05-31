@@ -991,7 +991,6 @@ class QueryGenerator {
         }
 
         table += param.tableName;
-        table = this.quoteIdentifier(table);
       }
     } else {
       table = this.quoteIdentifier(param);
